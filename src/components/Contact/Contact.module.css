@@ -1,0 +1,14 @@
+.item {
+    width: 250px;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    & button {
+        margin-left: auto;
+        height: 50px;
+    }
+    align-items: center;
+    text-align: left;
+}
